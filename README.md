@@ -1,22 +1,29 @@
 # File Organizer
 
-[![GitHub license](https://img.shields.io/github/license/OZX-OG/File-Organizer)](https://github.com/OZX-OG/File-Organizer/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/OZX-OG/File-Organizer)](https://github.com/OZX-OG/File-Organizer/stargazers)
-
 ## Description
 
-A Python script to organize and categorize files in a specified directory. The script automatically sorts files into designated folders based on file extensions.
+The File Organizer is a Python script that allows you to organize and categorize files in a specified directory. It automatically sorts files into designated folders based on their file extensions.
+
+## Usage
+
+1. Make sure you have Python installed on your system.
+
+2. Clone the repository:
+
+   ```bash
+   git clone https://github.com/OZX-OG/File-Organizer.git
+
+2. Run the script:
+
+   ```bash
+   python main.py
 
 ## Features
 
-- Automatically organizes files into folders based on file extensions
-- Allows customization of folder names and file extensions
-- Supports recursive organization of files in subdirectories
-- Supports exclusion of specific file extensions
+- Automatically organizes files into folders based on their file extensions.
+- Supports both default and custom input and output paths.
+- Handles non-existing input paths and displays an error message.
 
-## Installation
+## Contributing
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/OZX-OG/File-Organizer.git
+Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to submit a pull request.
